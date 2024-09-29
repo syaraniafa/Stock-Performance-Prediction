@@ -14,8 +14,8 @@ The project involves developing a deep learning architecture to forecast the sto
 ## Key Tasks
 1. **Data Exploration and Preprocessing**
 Before building any deep learning model, we conduct initial exploration to understand the dataset and address challenges inherent to time series data, such as:
-  - Handling missing values.
-  - Understanding trends or seasonality in the data.
+    - Handling missing values.
+    - Understanding trends or seasonality in the data.
     
 Preprocessing steps include:
 Time Series Splitting: The dataset is split into input-output pairs with a window size of 5 and horizon of 1. This means for every 5 consecutive days of input data, the model predicts the stock closing price for the next day (horizon = 1).
