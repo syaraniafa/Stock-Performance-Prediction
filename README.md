@@ -28,12 +28,12 @@ To ensure the model generalizes well, the data is split into three distinct sets
 
 3. **Model Architecture**
 
-  a. **Base Model**
-The first architecture is constructed based on Table 1 (provided in the project notebook), which acts as the foundational deep learning model.
-
-  b. **Sequential Self-Attention Mechanism**
-An advanced architecture is then created by adding a **Sequential Self-Attention Mechanism** to enhance the model's ability to focus on important parts of the input sequence.
-  **Explanation of Self-Attention**: This mechanism enables the model to weigh the importance of each time step when making predictions, allowing it to capture long-term dependencies in the stock data more effectively than traditional sequential models.
+    a. **Base Model**
+  The first architecture is constructed based on Table 1 (provided in the project notebook), which acts as the foundational deep learning model.
+  
+    b. **Sequential Self-Attention Mechanism**
+  An advanced architecture is then created by adding a **Sequential Self-Attention Mechanism** to enhance the model's ability to focus on important parts of the input sequence.
+    **Explanation of Self-Attention**: This mechanism enables the model to weigh the importance of each time step when making predictions, allowing it to capture long-term dependencies in the stock data more effectively than traditional sequential models.
 
 4. **Model Evalution**
 The trained models are evaluated on the test set using the following Evaluation metrics:
