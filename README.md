@@ -1,15 +1,15 @@
 # Stock Performance Prediction for Company "X" - Deep Learning Project
 
 ## Overview
-This project is part of the UAS (Final Assessment) for Deep Learning. The task simulates a real-world scenario where you are an AI Engineer working in the finance sector, tasked with predicting the stock performance of Company "X" using a provided time series dataset (X.csv).
+This project is part of the UAS (Final Assessment) for Deep Learning. The task simulates a real-world scenario where you are an AI Engineer working in the finance sector, tasked with predicting the stock performance of Company "X" using a provided time series dataset (`X.csv`).
 
-The project involves developing a deep learning architecture to forecast the stock's closing price, focusing on the Date and Close columns. Several key tasks such as data preprocessing, architectural design, evaluation, and comparison are required to ensure accurate predictions.
+The project involves developing a deep learning architecture to forecast the stock's closing price, focusing on the `Date` and `Close` columns. Several key tasks such as data preprocessing, architectural design, evaluation, and comparison are required to ensure accurate predictions.
 
 ## Dataset
-- Filename: X.csv
+- Filename: `X.csv`
 - Columns of Interest:
-  - Date: The date of the stock price data.
-  - Close: The closing price of the stock on that date.
+  - `Date`: The date of the stock price data.
+  - `Close`: The closing price of the stock on that date.
 
 ## Key Tasks
 1. **Data Exploration and Preprocessing**
@@ -18,7 +18,7 @@ Before building any deep learning model, we conduct initial exploration to under
     - Understanding trends or seasonality in the data. <br>
 
 Preprocessing steps include:
-Time Series Splitting: The dataset is split into input-output pairs with a window size of 5 and horizon of 1. This means for every 5 consecutive days of input data, the model predicts the stock closing price for the next day (horizon = 1).
+Time Series Splitting: The dataset is split into input-output pairs with a **window size of 5** and **horizon of 1**. This means for every 5 consecutive days of input data, the model predicts the stock closing price for the next day (horizon = 1).
 
 2. **Data Partitioning**
 To ensure the model generalizes well, the data is split into three distinct sets:
