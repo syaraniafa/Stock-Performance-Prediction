@@ -42,7 +42,7 @@ The trained models are evaluated on the test set using the following Evaluation 
   Justification for these metrics is provided in the notebook.
 
 5.  **Results and Analysis**
-The results obtained from both models (1c and 1d) are thoroughly analyzed and compared:
+The results obtained from both models are thoroughly analyzed and compared:
     - Prediction Results: The predictions from the base model and the model with the self-attention mechanism are compared to the actual stock prices.
     - Line Chart Comparison: A line chart visualizes the performance of both models against actual closing prices to clearly depict the differences in prediction accuracy.
 
