@@ -1,7 +1,7 @@
 # Stock Performance Prediction for Company "X" - Deep Learning Project
 
 ## Overview
-This project is part of the UAS (Final Assessment) for Deep Learning. The task simulates a real-world scenario where you are an AI Engineer working in the finance sector, tasked with predicting the stock performance of Company "X" using a provided time series dataset (`X.csv`).
+This project is part of the Final Assessment for Deep Learning. The task simulates a real-world scenario where you are an AI Engineer working in the finance sector, tasked with predicting the stock performance of Company "X" using a provided time series dataset (`X.csv`).
 
 The project involves developing a deep learning architecture to forecast the stock's closing price, focusing on the `Date` and `Close` columns. Several key tasks such as data preprocessing, architectural design, evaluation, and comparison are required to ensure accurate predictions.
 
