@@ -29,7 +29,7 @@ To ensure the model generalizes well, the data is split into three distinct sets
 3. **Model Architecture**
 
     a. **Base Model**
-  The first architecture is constructed based on Table 1 (provided in the project notebook), which acts as the foundational deep learning model.
+  The first architecture is Simple RNN, which acts as the foundational deep learning model.
   
     b. **Sequential Self-Attention Mechanism**
   An advanced architecture is then created by adding a **Sequential Self-Attention Mechanism** to enhance the model's ability to focus on important parts of the input sequence. <br>
